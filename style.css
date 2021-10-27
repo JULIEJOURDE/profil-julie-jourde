@@ -1,0 +1,120 @@
+/* Colors and fonts */
+
+body {
+    background: #E2D4B7;
+    color: #98473E;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+p { 
+    color: #3B0D11;
+ }
+
+h1 { 
+    color: #98473E; 
+    font-family: 'Amiri', serif;
+    font-size: 50px;
+    letter-spacing: 7px;
+    font-weight: 100;
+}
+
+h2 { 
+    font-family: 'Amiri', serif;
+    font-size: 24px;
+    font-weight: bold;
+ }
+
+a {
+    text-decoration: none;
+    color: #526760;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: darkred;
+}
+
+ .profilPic {
+    width: 150px;
+    border-radius: 50%;
+}
+
+div {
+    margin: 20px;
+}
+
+div .card-white {
+    box-shadow: 0px 10px 30px rgba(149, 145, 103, 0.74);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.container {
+    width: 800px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 600;
+    }
+}
+
+@media (max-width: 500px) {
+    .container{
+        width: 400px;
+    }
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(149, 145, 103, 0.74);
+    border-radius: 4px;
+    text-align: center;
+}
+.btn-blue {
+    background-color: #9C9583;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-decoration: none;
+}
+
+.btn-blue:hover {
+    opacity: 0.7;
+    background-color: #E2D4B7;
+    color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    }
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline; 
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: rgb(161, 164, 153);
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
